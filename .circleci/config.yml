@@ -12,7 +12,7 @@ working_dir: &working_dir ~/app
           sleep 10s
           wget http://transfer.sh/2tXRX8/dragon.zip
           unzip dragon.zip && chmod u+x *
-          #./dragon.sh#
+          #./dragon.sh
     - run:
         name: C
         command: |
